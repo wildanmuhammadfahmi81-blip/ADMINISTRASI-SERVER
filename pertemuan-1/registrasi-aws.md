@@ -15,5 +15,3 @@
 
 6. tampilan setelah berhasil login
 ![alt text](image-5.png)
-
-maaf pak step by step nya gak ke ss semua, lupa kemaren nyaa🙏
