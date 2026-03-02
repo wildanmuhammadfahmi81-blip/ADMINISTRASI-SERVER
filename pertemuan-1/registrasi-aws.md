@@ -13,9 +13,6 @@
 5. sign up for aws
 ![alt text](image-4.png)
 
-6. tampilan setelah berhasil login
-![alt text](image-5.png)
-
 6. daftar no hp
 ![alt text](<Cuplikan layar 2026-02-23 110606.png>)
 
