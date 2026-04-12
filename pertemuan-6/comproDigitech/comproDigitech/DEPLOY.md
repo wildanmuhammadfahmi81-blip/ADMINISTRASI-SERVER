@@ -54,7 +54,7 @@ npm -v
 sudo npm install -g pm2
 pm2 -v
 ```
-
+![alt text](image-3.png)
 ---
 
 ## Langkah 5 — Install & Konfigurasi MariaDB
