@@ -38,3 +38,25 @@
     - klik create
 
     ![alt text](image-2.png)
+
+4. create tokem 
+    - klik profile -> acount setting -> personal acces token
+    - klik generate new token
+    - acces token description -> akses web app compro statis
+    - expiration date -> none
+    - acces permission -> red & Write
+    - klik generate
+
+    ![alt text](image-3.png)
+
+5. create projek di lokal
+    - buat folder compro_nimm
+    - masukan file index.html compro
+    - buat file dockerfile dengan isi sebagai berikut
+        FROM baseImage 
+        COPY index.html /usr/share/nginx/html/index.html
+        EXPOSE 80
+
+6. psuh projek ke github
+
+![alt text](image-4.png)
