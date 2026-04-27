@@ -1,6 +1,7 @@
 export const dynamic = "force-dynamic";
 
 import Link from "next/link";
+import Image from "next/image";
 import { query } from "@/lib/db";
 
 interface BeritaRow {
@@ -42,7 +43,7 @@ export default async function BeritaIndexPage() {
           >
             {item.image && (
               <div className="berita-card__img">
-                <img src={item.image} alt={item.judul} loading="lazy" />
+                <Image src={item.image} alt={item.judul} fill style={{ objectFit: "cover" }} />
               </div>
             )}
             <div className="berita-card__body">

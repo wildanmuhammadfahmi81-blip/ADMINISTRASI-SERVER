@@ -125,6 +125,7 @@ NEXTAUTH_URL=http://<IP-PUBLIK-EC2>
 ```
 > Contoh `NEXTAUTH_URL=http://13.215.xxx.xxx`
 
+![alt text](image-4.png)
 ---
 
 ## Langkah 7 — Import Skema Database
