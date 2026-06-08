@@ -50,18 +50,7 @@ BUAT ACCESS TOKEN DOCKER HUB
 
 ![alt text](image-5.png)
 
-### 8. Login Docker ke EC2 Melalui PowerShell
-    "docker login -u gamine1"
-    (Saat diminta password, paste Docker Hub access token, bukan password akun biasa.)
-
-    BUILD IMAGE DARI PROJECT
-    Pastikan Posisi Folder di (cd ~/uas-cloud)
-    lalu build "docker compose build static-cv dynamic-app"
-    lalu push image ke docker hub "docker compose push static-cv dynamic-app"
-
-![!\[alt text\]](<login docker ke ec2.png>)
-
-### 9. Set Up Github Repository
+### 8. Set Up Github Repository
     BUAT REPOSITORY BARU
     "https://github.com/bruc3luck-design/uas-cloud.git"
 
@@ -75,7 +64,7 @@ BUAT ACCESS TOKEN DOCKER HUB
 
 ![alt text](image-6.png)
 
-### 10. Set Up Github Secret
+### 9. Set Up Github Secret
     DOCKERHUB_USERNAME = gamine1
     DOCKERHUB_TOKEN    = token Docker Hub kamu
     EC2_HOST           = IP public EC2 terbaru
@@ -90,7 +79,7 @@ BUAT ACCESS TOKEN DOCKER HUB
 
 ![alt text](image-7.png)
 
-### 11. Set Up Github Action
+### 10. Set Up Github Action
     ".github/workflows/deploy-static.yml"
     ".github/workflows/deploy-dynamic.yml"
 
@@ -108,7 +97,7 @@ BUAT ACCESS TOKEN DOCKER HUB
 
 ![alt text](image-8.png)
 
-### 12. Tes Menjalankan Web Static & Dynamic
+### 11. Tes Menjalankan Web Static & Dynamic
     Static
 
 ![alt text](image-10.png)
